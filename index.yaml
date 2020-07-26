@@ -3,7 +3,7 @@ entries:
   chart-demo:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-07-26T16:44:32.887793+08:00"
+    created: "2020-07-26T17:25:34.520586+08:00"
     description: A Helm chart for Kubernetes
     digest: 948d84e6ab28a6012b104d092fe96b04cd27daa07bc01136fc951f42f9d84314
     name: chart-demo
@@ -11,4 +11,15 @@ entries:
     urls:
     - https://piaohua.github.io/helm-charts/chart-demo-0.1.0.tgz
     version: 0.1.0
-generated: "2020-07-26T16:44:32.885544+08:00"
+  hello-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-07-26T17:25:34.521652+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 8ff57cb3489d4373282cba2600496a2457aa1009be6e5128f3c2c19c58936d6f
+    name: hello-chart
+    type: application
+    urls:
+    - https://piaohua.github.io/helm-charts/hello-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-07-26T17:25:34.512225+08:00"
