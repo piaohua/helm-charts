@@ -11,6 +11,17 @@ entries:
     urls:
     - https://piaohua.github.io/helm-charts/chart-demo-0.1.0.tgz
     version: 0.1.0
+  fastapi-short-code:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-05-28T23:23:39.767998+08:00"
+    description: A Helm chart for Kubernetes
+    digest: bb842408adbc042af220dc1619bab58d8a64d56d5a70fdc6abbe8a94f5a5a64f
+    name: fastapi-short-code
+    type: application
+    urls:
+    - https://piaohua.github.io/helm-charts/fastapi-short-code-0.1.0.tgz
+    version: 0.1.0
   hello-chart:
   - apiVersion: v2
     appVersion: latest
@@ -22,4 +33,4 @@ entries:
     urls:
     - https://piaohua.github.io/helm-charts/hello-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2020-07-26T18:01:38.310681+08:00"
+generated: "2024-05-28T23:23:39.766786+08:00"
