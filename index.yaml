@@ -3,7 +3,7 @@ entries:
   chart-demo:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-07-26T18:01:38.316377+08:00"
+    created: "2024-06-02T01:29:09.806597+08:00"
     description: A Helm chart for Kubernetes
     digest: 948d84e6ab28a6012b104d092fe96b04cd27daa07bc01136fc951f42f9d84314
     name: chart-demo
@@ -14,7 +14,17 @@ entries:
   fastapi-short-code:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-05-28T23:23:39.767998+08:00"
+    created: "2024-06-02T01:29:09.807707+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 762d08dafe28279a9ff13ba0135ee73fcab6cf7aa80f967cbe9af534fc3e48c0
+    name: fastapi-short-code
+    type: application
+    urls:
+    - https://piaohua.github.io/helm-charts/fastapi-short-code-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-06-02T01:29:09.807148+08:00"
     description: A Helm chart for Kubernetes
     digest: bb842408adbc042af220dc1619bab58d8a64d56d5a70fdc6abbe8a94f5a5a64f
     name: fastapi-short-code
@@ -25,7 +35,7 @@ entries:
   hello-chart:
   - apiVersion: v2
     appVersion: latest
-    created: "2020-07-26T18:01:38.317475+08:00"
+    created: "2024-06-02T01:29:09.808146+08:00"
     description: A Helm chart for Kubernetes
     digest: e18ef5056869802e4eb0391cc6d50b82c90d9a9edb336eb54ad7d9835ca5b1e5
     name: hello-chart
@@ -33,4 +43,44 @@ entries:
     urls:
     - https://piaohua.github.io/helm-charts/hello-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2024-05-28T23:23:39.766786+08:00"
+  nginx-ingress-controller:
+  - annotations:
+      category: Infrastructure
+      images: |
+        - name: nginx
+          image: docker.io/bitnami/nginx:1.25.5-debian-12-r1
+        - name: nginx-ingress-controller
+          image: docker.io/bitnami/nginx-ingress-controller:1.10.1-debian-12-r1
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 1.10.1
+    created: "2024-06-02T01:29:09.811845+08:00"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: NGINX Ingress Controller is an Ingress controller that manages external
+      access to HTTP services in a Kubernetes cluster using NGINX.
+    digest: ec1e3617ca8df4aaa6936908946127944e6e964f9988c9cc946631d8c885228f
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/nginx-ingress-controller/img/nginx-ingress-controller-stack-220x234.png
+    keywords:
+    - ingress
+    - nginx
+    - http
+    - web
+    - www
+    - reverse proxy
+    kubeVersion: '>= 1.20.0-0'
+    maintainers:
+    - name: VMware, Inc.
+      url: https://github.com/bitnami/charts
+    name: nginx-ingress-controller
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/nginx-ingress-controller
+    urls:
+    - https://piaohua.github.io/helm-charts/nginx-ingress-controller-11.1.1.tgz
+    version: 11.1.1
+generated: "2024-06-02T01:29:09.80474+08:00"
