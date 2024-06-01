@@ -34,7 +34,7 @@ async def short_url(url: URL):
     return url
 
 BASE62 = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-async def to_base62(hash: int):
+def to_base62(hash: int):
     code = ''
     while hash > 0:
         code += BASE62[hash % 62]
