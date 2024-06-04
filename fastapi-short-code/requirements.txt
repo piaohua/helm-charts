@@ -2,3 +2,4 @@ fastapi==0.111.0
 pydantic==2.7.1
 uvicorn==0.29.0
 mmh3==4.1.0
+asgi-correlation-id==4.3.1
