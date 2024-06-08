@@ -3,7 +3,7 @@ entries:
   chart-demo:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-08T09:39:04.731157+08:00"
+    created: "2024-06-08T11:34:59.925294+08:00"
     description: A Helm chart for Kubernetes
     digest: 948d84e6ab28a6012b104d092fe96b04cd27daa07bc01136fc951f42f9d84314
     name: chart-demo
@@ -14,9 +14,9 @@ entries:
   fastapi-short-code:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-08T09:39:04.736399+08:00"
+    created: "2024-06-08T11:34:59.930872+08:00"
     description: A Helm chart for Kubernetes
-    digest: afd8e412807468ffb8b4522b7aa2e76265b24520060178a3db2a758dbc4c8846
+    digest: 15fb0edede11523602e61d7943fbab363ec315d850ac3cdfa3a5129635462528
     name: fastapi-short-code
     type: application
     urls:
@@ -24,7 +24,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-08T09:39:04.73508+08:00"
+    created: "2024-06-08T11:34:59.92932+08:00"
     description: A Helm chart for Kubernetes
     digest: 44afa5ff2ed18a13e0c61eea90709450a9d0fa1a0da14df18c1420cd69ac7e8a
     name: fastapi-short-code
@@ -34,7 +34,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-08T09:39:04.733795+08:00"
+    created: "2024-06-08T11:34:59.927969+08:00"
     description: A Helm chart for Kubernetes
     digest: 762d08dafe28279a9ff13ba0135ee73fcab6cf7aa80f967cbe9af534fc3e48c0
     name: fastapi-short-code
@@ -44,7 +44,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-08T09:39:04.73248+08:00"
+    created: "2024-06-08T11:34:59.926553+08:00"
     description: A Helm chart for Kubernetes
     digest: bb842408adbc042af220dc1619bab58d8a64d56d5a70fdc6abbe8a94f5a5a64f
     name: fastapi-short-code
@@ -55,7 +55,7 @@ entries:
   hello-chart:
   - apiVersion: v2
     appVersion: latest
-    created: "2024-06-08T09:39:04.737144+08:00"
+    created: "2024-06-08T11:34:59.931919+08:00"
     description: A Helm chart for Kubernetes
     digest: e18ef5056869802e4eb0391cc6d50b82c90d9a9edb336eb54ad7d9835ca5b1e5
     name: hello-chart
@@ -74,7 +74,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.10.1
-    created: "2024-06-08T09:39:04.743433+08:00"
+    created: "2024-06-08T11:34:59.939251+08:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -103,4 +103,4 @@ entries:
     urls:
     - https://piaohua.github.io/helm-charts/nginx-ingress-controller-11.1.1.tgz
     version: 11.1.1
-generated: "2024-06-08T09:39:04.729736+08:00"
+generated: "2024-06-08T11:34:59.923788+08:00"
