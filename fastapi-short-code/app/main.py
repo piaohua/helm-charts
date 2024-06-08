@@ -87,7 +87,7 @@ sf = snowflake.generate(0, 0)
 @router.post("/id")
 async def snowflake_id():
     id = next(sf)
-    return {"id": id}
+    return {"id": str(id)}
 
 @router.post("/{id}/parse")
 async def snowflake_id_parse(id: int):
