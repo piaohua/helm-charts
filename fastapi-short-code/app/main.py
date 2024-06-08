@@ -12,6 +12,7 @@ import mmh3
 import random
 import logging
 import os
+from . import snowflake
 
 class URL(BaseModel):
     long_url: str
@@ -80,6 +81,18 @@ async def short_url(url: URL):
     hash = mmh3.hash(url.long_url, signed=False) # returns a 32-bit unsigned int
     url.short_url = to_base62(hash)
     return url
+
+sf = snowflake.generate(0, 0)
+
+@router.post("/id")
+async def snowflake_id():
+    id = next(sf)
+    return {"id": id}
+
+@router.post("/{id}/parse")
+async def snowflake_id_parse(id: int):
+    result = snowflake.parse(id)
+    return result
 
 app.include_router(router)
 
