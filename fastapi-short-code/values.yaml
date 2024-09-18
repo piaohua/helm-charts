@@ -10,6 +10,12 @@ image:
   # Overrides the image tag whose default is the chart appVersion.
   tag: "v0.2"
 
+# Redis config
+redis:
+  host: redis-master
+  port: 6379
+  password: "redis_password"
+
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
